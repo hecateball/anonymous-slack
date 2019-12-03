@@ -14,6 +14,7 @@ firebase use <your project ID>
 
 ```
 firebase functions:config:set anonymous.channel=<Your Slack channel>
-firebase.functions:config:set anonymous.access_token=<Your Slack bot api token>
+firebase.functions:config:set anonymous.token=<Your Slack slash command token>
+firebase.functions:config:set anonymous.api_token=<Your Slack bot api token>
 firebase.functions:config:set anonymous.icon_url=<Your Slack bot icon URL>
 ```
